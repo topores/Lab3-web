@@ -1,0 +1,156 @@
+body {
+    background-color: #5e5b5e;
+    background-size: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header {
+    overflow: hidden; /*Видимость вылезших элементов*/
+    background: #2a2a2a;
+    display: block;
+    position: fixed;
+    top: 0;
+    /*left: 0;*/
+    text-align: center;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+}
+#info {
+    /*text-align: center;*/
+    color: white;
+    font-family: "Helvetica";
+    left: 100px;
+    font-size: 16px;
+    margin: 0px 10px 0px;
+    text-align: center;
+}
+.main {
+    overflow: auto;
+    margin: 120px auto 0px;
+    padding: 10px 15px 1px;
+    display: block;
+    background: rgb(114, 111, 110);
+    color: #ffffff;
+    width: 800px;
+    height: 100%;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+}
+.pineapple{
+    display: block;
+}
+.link{
+     font-size: 30px;
+     font-family: "Helvetica";
+ }
+
+.butt{
+    font-size: 10px;
+    font-family: "Helvetica";
+    background: #3d3d3e;
+    color: #f9f5f9
+}
+#yIn{
+    border-color: rgb(174, 171, 170);
+    background-color: #636263;
+}
+h1{
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+}
+h2 {
+    color: white;
+    font-size: 100%;
+    font-style: italic;
+    font-family: "Helvetica";
+    text-align: left;
+    margin: 20px 10px 5px;
+}
+
+.warn-checkbox {
+    margin: 0px 0px 0px 10px;
+    color: red;
+}
+.warn-text {
+    border-color: red;
+}
+
+iframe {
+    border-width: 0px;
+    width: 100%;
+    height: 270px;
+}
+
+input{
+    color: black;
+    margin: 0px 10px 3px;
+}
+.button {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #fbfbfb;
+    border-color: #d0d0cd;
+    border-style: solid;
+    background: #555456;
+}
+.button:hover:enabled {
+    color: #f9f9f9;
+    border-color: #b6b6b6;
+    background: #555456;
+}
+.button:disabled {
+    color: #f9f9f9;
+    border-color: #b6b6b6;
+    background: #555456;
+}
+.button.in-button{
+    width: 32px;
+    margin: 0px;
+    border-radius: 0px;
+    /*cursor: pointer;*/
+    text-decoration: none;
+}
+.button.submit-button{
+    margin: 15px 5px 10px 10px;
+    border-radius: 0px;
+}
+.button.history-button{
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+.button-div{
+    margin: 0px 0px 0px 10px;
+}
+
+.main #canvas-div {
+    float: right;
+    margin-right: 150px;
+}
+.result-table{
+    border-collapse: collapse;
+    /*border: solid 4px #007765;*/
+    padding: 0;
+    font-size: 15px;
+}
+.result-table td, .result-table th{
+    /*border: solid 2px #007765;*/
+    text-align: center;
+}
+.result-table th{
+    /*border-bottom: 4px solid #007765;*/
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.warn{
+    color: red;
+}
+
+.change-input{
+    width: 50px;
+}
