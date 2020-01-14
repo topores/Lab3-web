@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "point_r_history")
+@Table(name = "point_history")
 public class PointHistoryElement {
     @Id
     @Column(name = "id", nullable = false)
