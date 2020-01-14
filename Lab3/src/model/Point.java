@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 @Entity
-@Table(name = "points_xy")
+@Table(name = "points")
 public class Point {
 
     @Id
